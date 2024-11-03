@@ -7,3 +7,8 @@
     margin: auto;
   }
   
+@media (max-width: 640px) {
+  .glowing-ellipse{
+    box-shadow: 0 0 30px 60px rgba(0, 207, 255, 0.4), 0 0 330px 60px rgba(15, 160, 185, 0.4);
+  }
+}

@@ -101,22 +101,22 @@ function Hero() {
 
   return (
     <>
-      <section className='hero h-[100vh] w-full overflow-y-hidden '>
+      <section className='hero h-[100vh] w-full overflow-y-hidden max-sm:h-[80vh] '>
         <Navbar />
 
         <div className="hero_img flex justify-center"> 
 
-            <div className='container '>
+            <div className='container  '>
 
               {/*  */}
 
-              <div className='flex justify-center '>
+              <div className='flex justify-center max-sm:relative  '>
 
-                  <div className=' hero-spark w-[50%] absolute inset-x-0 bottom-0 flex items-end max-sm:w-[100%] max-2xl:w-[60%] '>
+                  <div className=' hero-spark w-[50%] absolute max-sm:inset-x-0 flex items-center max-sm:w-[100%] max-2xl:w-[60%] '>
                     <img src={thunder} className='thunder-aura' alt="" />
                   </div>
                   
-                  <div className='z-50 absolute bottom-0 inset-x-0 max-sm:h-[50%] '>
+                  <div className='z-50 absolute h-[100%] max-sm:h-auto '>
                     <img src={hero} className='h-full ' id='character' alt="" />
                   </div>
               </div>
@@ -124,12 +124,12 @@ function Hero() {
               {/*  */}
 
               <div className=' flex justify-center h-[100%] '>
-                <div className="hexagon absolute top-0 h-[100%] ">
+                <div className="hexagon absolute bottom-0 h-[100%] ">
                   <img src={hexagon} className=' w-[60rem] h-[100%] max-sm:w-32 max-sm:h-32 max-2xl:w-[100%] ' alt="" />
                 </div>
               </div>
 
-              <div className="design_element   ">
+              {/* <div className="design_element   ">
                 <div className='dice absolute top-20 left-80 w-10 z-50 max-sm:w-8 max-2xl:left-52 ' ref={(el) => (diceRef.current[0]=el) } onMouseEnter={() => rotateHandle(0)}>
                   <img src={dice} alt="" />
                 </div>
@@ -160,7 +160,7 @@ function Hero() {
                   <img src={dice} alt="" />
                 </div>
 
-                {/* For right...!!! */}
+
 
                 <div className='dice absolute bottom-48 right-56 w-24 z-[60] max-sm:w-12 max-2xl:right-20 max-2xl:w-16 ' 
                 ref={(el) => (diceRef.current[4]=el)} onMouseEnter={() => rotateHandle(4)}>
@@ -195,10 +195,10 @@ function Hero() {
                   <img src={dice} alt="" />
                 </div>
 
-              </div>
+              </div> */}
 
-              <div className='flex justify-center'>
-                <div className=' container absolute bottom-32 tracking-wider text-7xl z-50 font-BruceForever cursor-pointer max-sm:text-xl max-2xl:text-5xl '>
+              <div className='flex justify-center relative'>
+                <div className=' container absolute tracking-wider text-7xl z-50 font-BruceForever cursor-pointer max-sm:text-xl max-2xl:text-5xl '>
 
                   <div className="up flex space-x-5 max-sm:space-x-2 ">
                     <div className='mainWords'>WELCOME </div>

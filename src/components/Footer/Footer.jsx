@@ -55,37 +55,37 @@ function Footer() {
           <div className=''>
 
             <div>
-              <p className='text-6xl text-center font-black font-orbitronBold '>Follow us <br /> on social media </p>
+              <p className='text-6xl text-center font-black font-orbitronBold max-sm:text-3xl '>Follow us <br /> on social media </p>
             </div>
 
-            <div className='mt-32 flex gap-20 '>
+            <div className='mt-32 flex gap-20 max-sm:flex-col max-sm:items-center max-sm:mt-16 '>
 
-              <div className=' media w-56 h-[28rem] bg-blue-600/80 hover:bg-blue-800 rounded-2xl  '>
+              <div className=' media w-56 h-[28rem] max-sm:w-48 max-sm:h-[24rem] bg-blue-600/80 hover:bg-blue-800 rounded-2xl  '>
                 <div className='text-white mt-6 flex justify-center  '>
-                  <img src={fb} alt="" className='w-20  ' />
+                  <img src={fb} alt="" className='w-20  max-sm:w-16 ' />
                 </div>
-                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32  '>FACEBOOK</p>
+                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32 max-sm:text-3xl '>FACEBOOK</p>
               </div>
 
-              <div className=' media w-56 h-[28rem] bg-[#c0c0c0] rounded-2xl bg-gradient-to-br from-gray-800 to-black hover:from-black hover:to-gray-900 '>
+              <div className=' media w-56 h-[28rem] max-sm:w-48 max-sm:h-[24rem] bg-[#c0c0c0] rounded-2xl bg-gradient-to-br from-gray-800 to-black hover:from-black hover:to-gray-900 '>
                 <div className='text-white mt-6 flex justify-center  '>
-                  <img src={x} alt="" className='w-20' />
+                  <img src={x} alt="" className='w-20 max-sm:w-14' />
                 </div>
-                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32  '>TWITTER</p>
+                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32 max-sm:text-3xl '>TWITTER</p>
               </div>
 
-              <div className=' media w-56 h-[28rem] bg-[#c0c0c0] rounded-2xl bg-gradient-to-br from-pink-500 via-purple-500 to-yellow-500 hover:from-pink-600 hover:via-purple-600 hover:to-yellow-600  '>
+              <div className=' media w-56 h-[28rem] max-sm:w-48 max-sm:h-[24rem] bg-[#c0c0c0] rounded-2xl bg-gradient-to-br from-pink-500 via-purple-500 to-yellow-500 hover:from-pink-600 hover:via-purple-600 hover:to-yellow-600  '>
                 <div className='text-white mt-3 flex justify-center  '>
-                  <img src={insta} alt="" className='w-28' />
+                  <img src={insta} alt="" className='w-28 max-sm:w-20' />
                 </div>
-                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32  '>INSTAGRAM</p>
+                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32 max-sm:text-3xl '>INSTAGRAM</p>
               </div>
 
             </div>
 
           </div>
 
-          <div className='container flex justify-around mt-52 text-lg font-medium '>
+          <div className='container flex justify-around mt-52 text-lg font-medium max-sm:text-[10px] max-sm:mt-20 '>
                <p>User agreement</p>
                <p>© 2004-2024</p>
                <p>Privacy policy and cookie</p>

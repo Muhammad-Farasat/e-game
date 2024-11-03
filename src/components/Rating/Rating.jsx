@@ -64,7 +64,7 @@ function Rating() {
 
   return (
     <>
-        <section className='w-full h-[100vh] flex justify-center relative'>
+        <section className='w-full h-[100vh] flex justify-center relative max-sm:h-auto'>
 
             <div className="element_circle -z-50">
                 <div className='glowing-ellipse absolute bottom-20 left-[-8px] h-52 '></div>
@@ -73,16 +73,14 @@ function Rating() {
           <div className="container ">
 
             <div className=' mainRateContainer  mt-8 flex justify-center'>
-              <h1 className='font-orbitronBold tracking-wide text-[40px] flex gap-4 '>
-                <div className='rateWord'>
-                  Top
-                </div>
+              <h1 className='font-orbitronBold tracking-wide text-[40px] flex gap-4 max-sm:text-[26px] max-sm:gap-2 '>
+                <div className='rateWord'>Top</div>
                 <div className='rateWord'>Game</div>
                 <span className='text-Gblue rateWord'>Reviews</span>
               </h1>
             </div>
 
-            <div className=" rateGame mt-20 flex justify-between">
+            <div className=" rateGame mt-20 flex justify-between max-sm:flex-col max-sm:space-y-12 max-sm:items-center ">
 
               <RatingCard className='rating-card' date={'October 29, 2003'} 
                 rating={<div className=' flex gap-2 text-Gold'>

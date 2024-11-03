@@ -3,3 +3,10 @@
     color: transparent; /* Makes the fill transparent */
     font-size: 4rem;
   }
+
+@media (max-width: 640px) {
+  .textStroke{ 
+    font-size: 32px;
+    -webkit-text-stroke: 0.5px #80d7ec;
+  }
+}

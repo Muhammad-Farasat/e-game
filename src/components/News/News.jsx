@@ -67,40 +67,40 @@ function News() {
 
   return (
     <>
-        <section className=' w-full h-max py-8 relative'>
+        <section className=' w-full h-max py-8 relative max-sm:py-0 '>
             <div className="element_circle -z-50">
-                <div className='glowing-ellipse absolute top-64 left-[-8px] w-[40px] h-[40px] '></div>
-                <div className='glowing-ellipse absolute top-2/3 right-[-8px] w-[40px] h-[40px] '></div>
+                <div className='glowing-ellipse absolute top-64 left-[-8px] w-[40px] h-[40px] max-sm:w-[10px] max-sm:h-[10px] '></div>
+                <div className='glowing-ellipse absolute top-2/3 right-[-8px] w-[40px] h-[40px] max-sm:w-[10px] max-sm:h-[10px] '></div>
             </div>
 
             <div className="flex justify-center">
                 <div className=" container ">
 
                     <div className='flex justify-center'>
-                        <div className='heading flex gap-5'>
-                            <div className='word mt-12 font-orbitronBlack tracking-[1.5px] text-[40px] '>
+                        <div className='heading flex gap-5 max-sm:gap-2 '>
+                            <div className='word mt-12 font-orbitronBlack tracking-[1.5px] text-[40px] max-sm:text-[22px]  '>
                                 Latest
                             </div>
-                            <div className='word mt-12 font-orbitronBlack tracking-[1.5px] text-[40px] '>
+                            <div className='word mt-12 font-orbitronBlack tracking-[1.5px] text-[40px] max-sm:text-[22px]  '>
                                  Gaming
                             </div>
-                            <div className='word mt-12 font-orbitronBlack text-Gblue tracking-[1.5px] text-[40px] '>
+                            <div className='word mt-12 font-orbitronBlack text-Gblue tracking-[1.5px] text-[40px] max-sm:text-[22px]  '>
                                   News
                             </div>
                         </div>
-                        <div className='bg-img absolute top-6 '>
-                            <img src={shape} alt="" />
+                        <div className='bg-img absolute top-6 max-sm:h-96 max-sm:w-96 max-sm:top-[50%] '>
+                            <img src={shape} className='max-sm:h-full max-sm:w-full'  alt="" />
                         </div>
                     </div>
 
-                    <div className='main-card mt-20 relative z-50 flex justify-between '>
+                    <div className='main-card mt-20 relative z-50 flex justify-between max-sm:flex-col max-sm:items-center max-sm:space-y-12 max-sm:mt-12  '>
                         <Cards className='card' game={dota} 
-                        description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} heading={'Dota 2'} />
+                        description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."} heading={'Dota 2'} />
                         <Cards className='card' game={lol} 
-                        description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                        description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."} 
                         heading={'League of Leagends'}/>
                         <Cards className='card' game={minecraft} 
-                        description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."} 
+                        description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."} 
                         heading={'MineCraft'} />
                     </div>
 
