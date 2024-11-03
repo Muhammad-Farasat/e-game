@@ -1,0 +1,28 @@
+.hero{
+    background: radial-gradient(circle, #00CFFF 0%, #000000 130%);;
+}
+/* .up div{
+    text-shadow: 
+    1px 1px 2px #1b1b1bc4,
+    -1px -1px 2px #1b1b1ba6;
+}
+.bottom div{
+    text-shadow: 
+    1px 1px 2px #1b1b1ba4,   
+    -1px -1px 2px #1b1b1bc5; 
+} */
+.up div:hover{
+    text-shadow: 
+    1px 1px 2px #fff,   /* light shadow to the bottom-right */
+    -1px -1px 2px #fff; /* dark shadow to the top-left */
+}
+.bottom div:hover{
+    text-shadow: 
+    1px 1px 2px #fff,   /* light shadow to the bottom-right */
+    -1px -1px 2px #fff; /* dark shadow to the top-left */
+}
+.bottom .game:hover{
+    text-shadow: 
+    1px 1px 2px #00CFFF,   /* light shadow to the bottom-right */
+    -1px -1px 2px #00CFFF; 
+}

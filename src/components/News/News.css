@@ -1,0 +1,9 @@
+.glowing-ellipse {
+    /* border-radius: 50%; */
+    background-color:  #00d0ff8c ;
+    box-shadow: 
+      0 0 100px 120px rgba(0, 207, 255, 0.4),  /* Outer glow */
+      0 0 100px 80px rgba(15, 160, 185, 0.4);   /* Inner glow */
+    margin: auto;
+  }
+  

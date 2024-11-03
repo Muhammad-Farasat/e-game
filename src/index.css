@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    color: #F2F2F2;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+#root{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: Orbitron-black;
+    src: url('./assets/Fonts/Orbitron/Orbitron-Black.ttf');
+}
+@font-face {
+    font-family:DeathStar;
+    src: url('./assets/Fonts/DeathStar/DeathStar.otf');
+}
+@font-face {
+    font-family: Dragon;
+    src: url('./assets/Fonts/DragonFire/DragonFire.ttf');
+}
+@font-face {
+    font-family: QuickStarter;
+    src: url('./assets/Fonts/QuickStarter/QuickStarter.ttf');
+}
+@font-face {
+    font-family: Orbitron-bold;
+    src: url('./assets/Fonts/Orbitron/Orbitron-Bold.ttf');
+}
+@font-face {
+    font-family: Orbitron-extrabold;
+    src: url('./assets/Fonts/Orbitron/Orbitron-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: BruceForever;
+    src: url('./assets/Fonts/Bruce/BruceForeverRegular-X3jd2.ttf');
+}
+
+@font-face {
+    font-family: ModernWarfare;
+    src: url('./assets/Fonts/Modrenwarfare/ModernWarfare-OV7KP.ttf');
+}
