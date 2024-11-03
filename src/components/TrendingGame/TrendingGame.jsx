@@ -72,16 +72,16 @@ function TrendingGame() {
             <Design />
 
             <div className='flex justify-center mainScroll '>
-                <div className='container flex max-sm:flex-col max-sm:items-center '  >
+                <div className='container flex max-sm:flex-col max-sm:items-center max-md:flex-col max-lg:gap-x-6  '  >
 
-                    <div className='w-full h-3/4 max-sm:w-72 max-sm:flex '>
+                    <div className='w-full h-3/4 max-sm:w-72 max-sm:flex max-lg:h-[100%] max-lg:w-[100%]  '>
                         <img src={trendingGame} className=' h-full ' alt="" />
                     </div>
 
                     <div className=' mt-4 ' ref={cylinderEffect} >
 
                         <div>
-                            <h1 className='text-5xl font-bold font-ModernWarfare max-sm:text-4xl max-sm:mx-2 '>DEAD ESTATE</h1>
+                            <h1 className='text-5xl font-bold font-ModernWarfare max-sm:text-4xl max-sm:mx-2 max-lg:text-4xl '>DEAD ESTATE</h1>
                         </div>
 
                         <div className='flex gap-3 mt-4 text-xs max-sm:text-[10px] max-sm:mx-2 '>
@@ -91,9 +91,9 @@ function TrendingGame() {
                             <button className=' btn border rounded-full px-3 py-1 max-sm:px-2 max-sm:py-0.5 '>Adventure</button>
                         </div>
 
-                        <div className='mt-10 space-y-4 max-sm:space-y-3 max-sm:mt-6 max-sm:mx-2 '>
+                        <div className='mt-10 space-y-4 max-sm:space-y-3 max-sm:mt-6 max-sm:mx-2 max-lg:text-xs '>
                             
-                            <p className='max-sm:text-sm'><span className='text-lg font-bold text-Gblue max-sm:text-sm'>Storyline:</span> Dead Estate is a gory, fast-paced, challenging, roguelike shooter, with a heavy emphasis on Halloween and other horror influences. Ascend the floors of a monster-filled mansion with 8 unique characters and collect loads of items and weapons, tackle grueling challenges, and discover many secrets and unlockables along the way</p>
+                            <p className='max-sm:text-sm'><span className='text-lg font-bold text-Gblue max-sm:text-sm max-lg:text-sm'>Storyline:</span> Dead Estate is a gory, fast-paced, challenging, roguelike shooter, with a heavy emphasis on Halloween and other horror influences. Ascend the floors of a monster-filled mansion with 8 unique characters and collect loads of items and weapons, tackle grueling challenges, and discover many secrets and unlockables along the way</p>
 
                             <p className='max-sm:text-sm'><span className=' text-Gblue font-bold '>Release:</span> October 19, 2021 </p>
 
@@ -105,7 +105,7 @@ function TrendingGame() {
                 </div>
             </div>
 
-            <h3  className='  text-6xl text-center font-BruceForever mb-8 max-sm:text-2xl max-sm:mt-8 max-sm:mb-3 '>Trailer</h3>
+            <h3  className='  text-6xl text-center font-BruceForever mb-8 max-sm:text-2xl max-sm:mt-8 max-sm:mb-3 max-md:text-5xl max-md:mt-12 max-lg:text-4xl max-lg:mt-16 '>Trailer</h3>
 
             <div className=' mainVideo flex justify-center h-full ' >
                 <div className=' w-full h-full ' >
