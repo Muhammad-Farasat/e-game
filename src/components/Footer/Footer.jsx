@@ -1,10 +1,5 @@
 import React from 'react'
-import logo from '../../assets/Images/logo.png'
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaSquareXTwitter, FaSquareInstagram } from "react-icons/fa6";
-import { AiFillInstagram } from "react-icons/ai";
 import { useGSAP } from '@gsap/react'
-import Design from '../Design/Design';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from 'gsap'
 import fb from '../../assets/Images/fb.png'
