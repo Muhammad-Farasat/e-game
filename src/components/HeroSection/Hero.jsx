@@ -124,17 +124,18 @@ function Hero() {
               {/*  */}
 
               <div className=' flex justify-center h-[100%] '>
-                <div className="hexagon absolute bottom-0 h-[100%] ">
-                  <img src={hexagon} className=' w-[60rem] h-[100%] max-sm:w-32 max-sm:h-32 max-2xl:w-[100%] ' alt="" />
+                <div className="hexagon absolute bottom-0 h-[100%]  max-sm:w-80 max-sm:h-80 ">
+                  <img src={hexagon} className=' w-[60rem] h-[100%]  max-2xl:w-[100%] ' alt="" />
                 </div>
               </div>
 
               <div className="design_element   ">
-                <div className='dice absolute top-20 left-80 w-10 z-50 max-sm:w-8 max-2xl:left-52 ' ref={(el) => (diceRef.current[0]=el) } onMouseEnter={() => rotateHandle(0)}>
+
+                <div className='dice absolute top-20 left-80 w-10 z-50 max-sm:w-6 max-sm:left-4 max-2xl:left-52 ' >
                   <img src={dice} alt="" />
                 </div>
 
-                <div className='circles flex flex-col gap-y-1 absolute top-[48%] left-12 '>
+                <div className='circles flex flex-col gap-y-1 absolute top-[48%] left-12 max-sm:hidden '>
                   <div className='flex gap-1 '>
                     <div className='shape w-1.5 h-1.5 bg-slate-200 rounded-full '></div>
                     <div className='shape w-1.5 h-1.5 bg-slate-200 rounded-full '></div>
@@ -145,29 +146,29 @@ function Hero() {
                   </div>
                 </div>
 
-                <div className='dice absolute top-48 left-40 w-20 z-50 max-sm:w-8 max-2xl:left-20 max-2xl:w-16 '
+                <div className='dice absolute top-48 left-40 w-20 z-50 max-sm:w-5 max-sm:left-12 max-sm:top-52 max-2xl:left-20 max-2xl:w-16  '
                 ref={(el) => (diceRef.current[1]=el)} onMouseEnter={() => rotateHandle(1)}>
                   <img src={dice} alt="" />
                 </div>
 
-                <div className='dice absolute bottom-72 left-24 w-8 z-50 max-sm:w-5 max-2xl:bottom-52  ' 
+                <div className='dice absolute bottom-72 left-24 w-8 z-50 max-sm:w-8 max-sm:left-16 max-sm:top-80 max-2xl:bottom-52   ' 
                 ref={(el) => (diceRef.current[2]=el)} onMouseEnter={() => rotateHandle(2)}>
                   <img src={dice} alt="" />
                 </div>
 
-                <div className='dice absolute bottom-12 left-56 w-14 rotate-180  max-sm:w-10'
+                <div className='dice absolute bottom-12 left-56 w-14 rotate-180 max-sm:w-8   '
                 ref={(el) => (diceRef.current[3]=el)}  onMouseEnter={() => rotateHandle(3)}>
                   <img src={dice} alt="" />
                 </div>
 
 
 
-                <div className='dice absolute bottom-48 right-56 w-24 z-[60] max-sm:w-12 max-2xl:right-20 max-2xl:w-16 ' 
+                <div className='dice absolute bottom-48 right-56 w-24 z-[60] max-sm:w-8 max-sm:top-72  max-2xl:right-20 max-2xl:w-16 ' 
                 ref={(el) => (diceRef.current[4]=el)} onMouseEnter={() => rotateHandle(4)}>
                   <img src={dice} alt="" />
                 </div>
 
-                <div className='circles flex flex-col gap-y-1 absolute top-[48%] right-28 '>
+                <div className='circles flex flex-col gap-y-1 absolute top-[48%] right-28 max-sm:hidden '>
                   <div className='flex gap-1 '>
                     <div className='shape w-1.5 h-1.5 bg-slate-200 rounded-full '></div>
                     <div className='shape w-1.5 h-1.5 bg-slate-200 rounded-full '></div>
@@ -180,7 +181,7 @@ function Hero() {
                   </div>
                 </div>
 
-                <div className='dice absolute top-48 right-56 w-20 rotate-90 z-[60] max-sm:w-14 max-2xl:w-16 ' 
+                <div className='dice absolute top-48 right-56 w-20 rotate-90 z-[60] max-sm:w-8 max-sm:top-56 max-sm:right-6 max-2xl:w-16 ' 
                 ref={(el) => (diceRef.current[5]=el)} onMouseEnter={() => rotateHandle(5)}>
                   <img src={dice} alt="" />
                 </div>
@@ -190,15 +191,15 @@ function Hero() {
                   <img src={dice} alt="" />
                 </div>
 
-                <div className='dice absolute bottom-20 right-12 w-14 rotate-45 z-[60] max-sm:w-10 max-2xl:right-32 max-2xl:w-10 ' 
+                <div className='dice absolute bottom-20 right-12 w-14 rotate-45 z-[60] max-sm:w-10 max-sm:left-12 max-2xl:right-32 max-2xl:w-10 ' 
                 ref={(el) => (diceRef.current[7]=el)} onMouseEnter={() => rotateHandle(7)}>
                   <img src={dice} alt="" />
                 </div>
 
               </div>
 
-              <div className='flex justify-center'>
-                <div className=' container absolute bottom-32 tracking-wider text-7xl z-50 font-BruceForever cursor-pointer max-sm:text-xl max-2xl:text-5xl '>
+              <div className='flex justify-center  '>
+                <div className=' container absolute bottom-32 tracking-wider text-7xl z-50 font-BruceForever cursor-pointer max-sm:text-xl max-2xl:text-5xl max-sm:top-32 max-sm:flex max-sm:flex-col max-sm:items-center '>
 
                   <div className="up flex space-x-5 max-sm:space-x-2 ">
                     <div className='mainWords'>WELCOME </div>
