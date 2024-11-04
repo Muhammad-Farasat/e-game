@@ -112,11 +112,11 @@ function Hero() {
 
               <div className='flex justify-center '>
 
-                  <div className=' hero-spark w-[50%] absolute max-sm:inset-x-0 bottom-0 flex items-end max-sm:w-[100%] max-2xl:w-[60%] '>
+                  <div className=' hero-spark w-[50%] absolute max-sm:inset-x-0 bottom-0 flex items-end max-lg:h-[100%] max-sm:w-[100%] max-2xl:w-[60%] '>
                     <img src={thunder} className='thunder-aura' alt="" />
                   </div>
                   
-                  <div className='z-50 absolute h-[100%] bottom-0   max-sm:h-auto '>
+                  <div className='z-50 absolute h-[100%] bottom-0 max-lg:h-[86%] max-md:h-[80%]  max-sm:h-auto '>
                     <img src={hero} className='h-full ' id='character' alt="" />
                   </div>
               </div>
@@ -124,7 +124,7 @@ function Hero() {
               {/*  */}
 
               <div className=' flex justify-center h-[100%] '>
-                <div className="hexagon absolute bottom-0 h-[100%]  max-sm:w-80 max-sm:h-80 ">
+                <div className="hexagon absolute bottom-0 h-[100%] max-md:w-[90%] max-md:h-[90%] max-sm:w-80 max-sm:h-80 ">
                   <img src={hexagon} className=' w-[60rem] h-[100%]  max-2xl:w-[100%] ' alt="" />
                 </div>
               </div>
@@ -151,7 +151,7 @@ function Hero() {
                   <img src={dice} alt="" />
                 </div>
 
-                <div className='dice absolute bottom-72 left-24 w-8 z-50 max-sm:w-8 max-sm:left-16 max-sm:top-80 max-2xl:bottom-52   ' 
+                <div className='dice absolute bottom-72 left-24 w-8 z-50 max-lg:left-16 max-sm:w-8 max-sm:left-16 max-sm:top-80 max-2xl:bottom-52   ' 
                 ref={(el) => (diceRef.current[2]=el)} onMouseEnter={() => rotateHandle(2)}>
                   <img src={dice} alt="" />
                 </div>
@@ -161,7 +161,7 @@ function Hero() {
                   <img src={dice} alt="" />
                 </div>
 
-
+                {/* RIGHTTTT */}
 
                 <div className='dice absolute bottom-48 right-56 w-24 z-[60] max-sm:w-8 max-sm:top-72  max-2xl:right-20 max-2xl:w-16 ' 
                 ref={(el) => (diceRef.current[4]=el)} onMouseEnter={() => rotateHandle(4)}>
@@ -191,7 +191,7 @@ function Hero() {
                   <img src={dice} alt="" />
                 </div>
 
-                <div className='dice absolute bottom-20 right-12 w-14 rotate-45 z-[60] max-sm:w-10 max-sm:left-12 max-2xl:right-32 max-2xl:w-10 ' 
+                <div className='dice absolute bottom-20 right-12 w-14 rotate-45 z-[60] max-lg:right-8 max-sm:w-10 max-sm:left-12 max-2xl:right-32 max-2xl:w-10 ' 
                 ref={(el) => (diceRef.current[7]=el)} onMouseEnter={() => rotateHandle(7)}>
                   <img src={dice} alt="" />
                 </div>

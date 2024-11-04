@@ -46,16 +46,43 @@ function Footer() {
 
           });
 
+          gsap.fromTo(
+            '.footText',
+            { y: 50, opacity: 0 },
+            {
+              y: 0,
+              opacity: 1,
+              duration: 0.6,
+              ease: 'power3.out',
+              stagger: 0.2, // stagger animation for sequential effect
+              scrollTrigger: {
+                trigger: '.footMain',
+                start: 'top 20%', // start the animation when heading enters viewport
+                toggleActions: 'play none none reverse', // allows reverse on scroll up
+              },
+            }
+          );
+
     })
 
   return (
     <>
-        <section className='flex flex-col justify-center items-center mt-12 mb-6'>       
+        <section className=' footMain flex flex-col justify-center items-center mt-12 mb-6'>       
 
           <div className=''>
 
             <div>
-              <p className='text-6xl text-center font-black font-orbitronBold max-sm:text-3xl max-md:text-5xl max-lg:text-5xl '>Follow us <br /> on social media </p>
+              <div className='  text-6xl flex flex-col font-black font-orbitronBold max-sm:text-3xl max-md:text-5xl max-lg:text-5xl '>
+                <div className='flex justify-center gap-6'>
+                  <p className='footText'>Follow</p> 
+                  <p className='footText'>us</p> 
+                </div>
+                  <div className='flex justify-center gap-6'>
+                    <p className='footText'>on</p> 
+                    <p className='footText'>social</p>
+                    <p className='footText'>media</p> 
+                  </div> 
+              </div>
             </div>
 
             <div className='mt-32 flex gap-20 max-sm:flex-col max-sm:items-center max-sm:mt-16 max-lg:mt-12  '>

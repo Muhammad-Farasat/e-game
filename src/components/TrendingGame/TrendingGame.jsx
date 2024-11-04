@@ -91,7 +91,7 @@ function TrendingGame() {
                             <button className=' btn border rounded-full px-3 py-1 max-sm:px-2 max-sm:py-0.5 '>Adventure</button>
                         </div>
 
-                        <div className='mt-10 space-y-4 max-sm:space-y-3 max-sm:mt-6 max-sm:mx-2 max-lg:text-xs '>
+                        <div className='mt-10 space-y-4 max-sm:space-y-3 max-sm:mt-6 max-sm:mx-2 max-lg:text-sm '>
                             
                             <p className='max-sm:text-sm'><span className='text-lg font-bold text-Gblue max-sm:text-sm max-lg:text-sm'>Storyline:</span> Dead Estate is a gory, fast-paced, challenging, roguelike shooter, with a heavy emphasis on Halloween and other horror influences. Ascend the floors of a monster-filled mansion with 8 unique characters and collect loads of items and weapons, tackle grueling challenges, and discover many secrets and unlockables along the way</p>
 
