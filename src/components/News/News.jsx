@@ -67,7 +67,7 @@ function News() {
 
   return (
     <>
-        <section className=' w-full h-max py-8 relative max-sm:py-0 '>
+        <section className=' w-full h-max py-8 relative max-sm:py-0  '>
             <div className="element_circle -z-50">
                 <div className='glowing-ellipse absolute top-64 left-[-8px] w-[40px] h-[40px] max-sm:w-[10px] max-sm:h-[10px] '></div>
                 <div className='glowing-ellipse absolute top-2/3 right-[-8px] w-[40px] h-[40px] max-sm:w-[10px] max-sm:h-[10px] '></div>
