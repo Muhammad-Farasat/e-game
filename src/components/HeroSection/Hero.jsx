@@ -112,7 +112,7 @@ function Hero() {
 
               <div className='flex justify-center '>
 
-                  <div className=' hero-spark w-[50%] absolute max-sm:inset-x-0 bottom-0 flex items-end max-lg:h-[100%] max-sm:w-[100%] max-2xl:w-[60%] '>
+                  <div className=' hero-spark w-[50%] absolute max-sm:-inset-x-2 bottom-0 flex items-end max-lg:w-[50%] max-sm:w-[100%] max-2xl:w-[60%] '>
                     <img src={thunder} className='thunder-aura' alt="" />
                   </div>
                   
@@ -129,9 +129,9 @@ function Hero() {
                 </div>
               </div>
 
-              <div className="design_element   ">
+              <div className=" design_element ">
 
-                <div className='dice absolute top-20 left-80 w-10 z-50 max-sm:w-6 max-sm:left-4 max-2xl:left-52 ' >
+                <div className='dice absolute top-20 left-80 w-10 z-50 max-sm:w-6 max-sm:left-4 max-lg:left-40 max-lg:w-8 max-2xl:left-52 ' >
                   <img src={dice} alt="" />
                 </div>
 
@@ -146,7 +146,7 @@ function Hero() {
                   </div>
                 </div>
 
-                <div className='dice absolute top-48 left-40 w-20 z-50 max-sm:w-5 max-sm:left-12 max-sm:top-52 max-2xl:left-20 max-2xl:w-16  '
+                <div className='dice absolute top-48 left-40 w-20 z-50 max-sm:w-5 max-sm:left-12 max-sm:top-52 max-lg:w-8 max-2xl:left-20 max-2xl:w-16  '
                 ref={(el) => (diceRef.current[1]=el)} onMouseEnter={() => rotateHandle(1)}>
                   <img src={dice} alt="" />
                 </div>
@@ -156,14 +156,14 @@ function Hero() {
                   <img src={dice} alt="" />
                 </div>
 
-                <div className='dice absolute bottom-12 left-56 w-14 rotate-180 max-sm:w-8   '
+                <div className='dice absolute bottom-12 left-56 w-14 rotate-180 max-sm:w-8 max-lg:w-6 max-lg:bottom-8 max-lg:left-36  '
                 ref={(el) => (diceRef.current[3]=el)}  onMouseEnter={() => rotateHandle(3)}>
                   <img src={dice} alt="" />
                 </div>
 
                 {/* RIGHTTTT */}
 
-                <div className='dice absolute bottom-48 right-56 w-24 z-[60] max-sm:w-8 max-sm:top-72  max-2xl:right-20 max-2xl:w-16 ' 
+                <div className='dice absolute bottom-48 right-56 w-24 z-[60] max-sm:w-8 max-sm:top-72 max-lg:top-8 max-lg:w-8 max-lg:right-56  max-2xl:right-20 max-2xl:w-16 ' 
                 ref={(el) => (diceRef.current[4]=el)} onMouseEnter={() => rotateHandle(4)}>
                   <img src={dice} alt="" />
                 </div>
@@ -181,12 +181,12 @@ function Hero() {
                   </div>
                 </div>
 
-                <div className='dice absolute top-48 right-56 w-20 rotate-90 z-[60] max-sm:w-8 max-sm:top-56 max-sm:right-6 max-2xl:w-16 ' 
+                <div className='dice absolute top-48 right-56 w-20 rotate-90 z-[60] max-lg:w-8 max-lg:right-28 max-lg:top-72 max-sm:w-8 max-sm:top-56 max-sm:right-6 max-2xl:w-16 ' 
                 ref={(el) => (diceRef.current[5]=el)} onMouseEnter={() => rotateHandle(5)}>
                   <img src={dice} alt="" />
                 </div>
 
-                <div className='dice absolute top-24 right-[30%] w-8 rotate-180 z-[60] max-sm:w-5 max-2xl:right-12 ' 
+                <div className='dice absolute top-24 right-[30%] w-8 rotate-180 z-[60] max-lg:top-20 max-sm:w-5 max-2xl:right-12 ' 
                 ref={(el) => (diceRef.current[6]=el)} onMouseEnter={() => rotateHandle(6)}>
                   <img src={dice} alt="" />
                 </div>
@@ -199,15 +199,15 @@ function Hero() {
               </div>
 
               <div className='flex justify-center  '>
-                <div className=' container absolute bottom-32 tracking-wider text-7xl z-50 font-BruceForever cursor-pointer max-sm:text-xl max-2xl:text-5xl max-sm:top-32 max-sm:flex max-sm:flex-col max-sm:items-center '>
+                <div className=' container absolute bottom-32 tracking-wider text-7xl z-50 font-BruceForever cursor-pointer max-sm:text-xl max-lg:text-2xl max-lg:bottom-16 max-2xl:text-5xl max-sm:top-32 max-sm:flex max-sm:flex-col max-sm:items-center '>
 
-                  <div className="up flex space-x-5 max-sm:space-x-2 ">
+                  <div className="up flex space-x-5 max-sm:space-x-2 max-lg:space-x-2  ">
                     <div className='mainWords'>WELCOME </div>
                     <div className='mainWords'>TO </div>
                     <div className='mainWords'>THE</div>
                   </div>
 
-                  <div className="bottom flex space-x-5 max-sm:space-x-2">
+                  <div className="bottom flex space-x-5 max-sm:space-x-2 max-lg:space-x-2">
                     <div className='mainWords'>WORLD</div>
                     <div className='mainWords'>OF</div>
                     <div className='game mainWords'>GAMING</div>

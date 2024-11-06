@@ -64,7 +64,7 @@ function Rating() {
 
   return (
     <>
-        <section className='w-full h-[100vh] flex justify-center relative max-sm:h-auto'>
+        <section className='w-full h-[100vh] flex justify-center relative max-lg:h-auto max-sm:h-auto'>
 
             <div className="element_circle -z-50">
                 <div className='glowing-ellipse absolute bottom-20 left-[-8px] h-52 '></div>
@@ -73,7 +73,7 @@ function Rating() {
           <div className="container ">
 
             <div className=' mainRateContainer  mt-8 flex justify-center'>
-              <h1 className='font-orbitronBold tracking-wide text-[40px] flex gap-4 max-sm:text-[26px] max-sm:gap-2 '>
+              <h1 className='font-orbitronBold tracking-wide text-[40px] flex gap-4 max-lg:text-[30px] max-sm:text-[26px] max-sm:gap-2 '>
                 <div className='rateWord'>Top</div>
                 <div className='rateWord'>Game</div>
                 <span className='text-Gblue rateWord'>Reviews</span>

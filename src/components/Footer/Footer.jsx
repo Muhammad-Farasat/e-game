@@ -67,12 +67,12 @@ function Footer() {
           <div className=''>
 
             <div>
-              <div className='  text-6xl flex flex-col font-black font-orbitronBold max-sm:text-3xl max-md:text-5xl max-lg:text-5xl '>
-                <div className='flex justify-center gap-6'>
+              <div className='  text-6xl flex flex-col font-black font-orbitronBold max-sm:text-3xl max-md:text-5xl max-lg:text-4xl '>
+                <div className='flex justify-center gap-6 max-lg:gap-x-3 '>
                   <p className='footText'>Follow</p> 
                   <p className='footText'>us</p> 
                 </div>
-                  <div className='flex justify-center gap-6'>
+                  <div className='flex justify-center gap-6 max-lg:gap-x-3 ' >
                     <p className='footText'>on</p> 
                     <p className='footText'>social</p>
                     <p className='footText'>media</p> 
@@ -82,32 +82,32 @@ function Footer() {
 
             <div className='mt-32 flex gap-20 max-sm:flex-col max-sm:items-center max-sm:mt-16 max-lg:mt-12  '>
 
-              <div className=' media w-56 h-[28rem] max-sm:w-48 max-sm:h-[24rem] max-md:w-44 max-md:h-96 max-lg:w-48 bg-blue-600/80 hover:bg-blue-800 rounded-2xl  '>
+              <div className=' media w-56 h-[28rem]  max-sm:w-48 max-sm:h-[24rem] max-md:w-44 max-md:h-96 max-lg:w-40 max-lg:h-80 bg-blue-600/80 hover:bg-blue-800 rounded-2xl  '>
                 <div className='text-white mt-6 flex justify-center  '>
-                  <img src={fb} alt="" className='w-20  max-sm:w-16 max-md:w-16 ' />
+                  <img src={fb} alt="" className='w-20  max-sm:w-16 max-md:w-16 max-lg:w-16 ' />
                 </div>
-                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32 max-sm:text-3xl max-md:text-3xl '>FACEBOOK</p>
+                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32 max-lg:mt-20 max-lg:text-2xl max-sm:text-3xl max-md:text-3xl '>FACEBOOK</p>
               </div>
 
-              <div className=' media w-56 h-[28rem] max-sm:w-48 max-sm:h-[24rem] max-md:w-44 max-md:h-96 max-lg:w-48 bg-[#c0c0c0] rounded-2xl bg-gradient-to-br from-gray-800 to-black hover:from-black hover:to-gray-900 '>
+              <div className=' media w-56 h-[28rem]  max-sm:w-48 max-sm:h-[24rem] max-md:w-44 max-md:h-96 max-lg:w-40 max-lg:h-80 bg-[#c0c0c0] rounded-2xl bg-gradient-to-br from-gray-800 to-black hover:from-black hover:to-gray-900 '>
                 <div className='text-white mt-6 flex justify-center  '>
-                  <img src={x} alt="" className='w-20 max-sm:w-14 max-md:w-16' />
+                  <img src={x} alt="" className='w-20 max-sm:w-14 max-md:w-16 max-lg:w-16 ' />
                 </div>
-                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32 max-sm:text-3xl max-md:text-3xl'>TWITTER</p>
+                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32 max-sm:text-3xl max-md:text-3xl max-lg:text-2xl max-lg:mt-20 '>TWITTER</p>
               </div>
 
-              <div className=' media w-56 h-[28rem] max-sm:w-48 max-sm:h-[24rem] max-md:w-44 max-md:h-96 max-lg:w-48 bg-[#c0c0c0] rounded-2xl bg-gradient-to-br from-pink-500 via-purple-500 to-yellow-500 hover:from-pink-600 hover:via-purple-600 hover:to-yellow-600  '>
+              <div className=' media w-56 h-[28rem]  max-sm:w-48 max-sm:h-[24rem] max-md:w-44 max-md:h-96 max-lg:w-40 max-lg:h-80 bg-[#c0c0c0] rounded-2xl bg-gradient-to-br from-pink-500 via-purple-500 to-yellow-500 hover:from-pink-600 hover:via-purple-600 hover:to-yellow-600  '>
                 <div className='text-white mt-3 flex justify-center  '>
-                  <img src={insta} alt="" className='w-28 max-sm:w-20 max-md:w-20' />
+                  <img src={insta} alt="" className='w-28 max-sm:w-20 max-md:w-20 max-lg:w-20' />
                 </div>
-                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32 max-sm:text-3xl max-md:text-3xl'>INSTAGRAM</p>
+                <p className=' -rotate-90  text-center text-4xl font-black tracking-widest mt-32 max-sm:text-3xl max-md:text-3xl max-lg:text-2xl max-lg:mt-20 '>INSTAGRAM</p>
               </div>
 
             </div>
 
           </div>
 
-          <div className='container flex justify-around mt-52 text-lg font-medium max-sm:text-[10px] max-sm:mt-20 max-lg:mt-32 '>
+          <div className='container flex justify-around mt-52 text-lg font-medium max-sm:text-[10px] max-sm:mt-20 max-lg:mt-32 max-lg:text-sm  '>
                <p>User agreement</p>
                <p>© 2004-2024</p>
                <p>Privacy policy and cookie</p>

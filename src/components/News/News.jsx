@@ -78,13 +78,13 @@ function News() {
 
                     <div className='flex justify-center'>
                         <div className='heading flex gap-5 max-sm:gap-2 '>
-                            <div className='word mt-12 font-orbitronBlack tracking-[1.5px] text-[40px] max-sm:text-[22px]  '>
+                            <div className='word mt-12 font-orbitronBlack tracking-[1.5px] text-[40px] max-lg:text-[30px] max-sm:text-[22px]  '>
                                 Latest
                             </div>
-                            <div className='word mt-12 font-orbitronBlack tracking-[1.5px] text-[40px] max-sm:text-[22px]  '>
+                            <div className='word mt-12 font-orbitronBlack tracking-[1.5px] text-[40px] max-lg:text-[30px] max-sm:text-[22px]  '>
                                  Gaming
                             </div>
-                            <div className='word mt-12 font-orbitronBlack text-Gblue tracking-[1.5px] text-[40px] max-sm:text-[22px]  '>
+                            <div className='word mt-12 font-orbitronBlack text-Gblue tracking-[1.5px] text-[40px] max-lg:text-[30px] max-sm:text-[22px]  '>
                                   News
                             </div>
                         </div>
