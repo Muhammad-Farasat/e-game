@@ -72,13 +72,13 @@ function TrendingGame() {
             <Design />
 
             <div className='flex justify-center mainScroll '>
-                <div className='container flex max-sm:flex-col max-sm:items-center max-md:flex-col max-lg:gap-x-6  '  >
+                <div className='container flex justify-between max-sm:flex-col max-sm:items-center max-md:flex-col max-lg:gap-x-6  '  >
 
-                    <div className='w-full h-3/4 max-sm:w-72 max-sm:flex max-lg:h-[100%] max-lg:w-[100%]  '>
+                    <div className=' w-3/12 max-sm:w-72 max-sm:flex max-lg:h-[100%] max-lg:w-[100%]  '>
                         <img src={trendingGame} className=' h-full ' alt="" />
                     </div>
 
-                    <div className=' mt-4 ' ref={cylinderEffect} >
+                    <div className=' mt-4 w-3/5 ' ref={cylinderEffect} >
 
                         <div>
                             <h1 className='text-5xl font-bold font-ModernWarfare max-sm:text-4xl max-sm:mx-2 max-lg:text-4xl '>DEAD ESTATE</h1>
@@ -105,7 +105,7 @@ function TrendingGame() {
                 </div>
             </div>
 
-            <h3  className='  text-6xl text-center font-BruceForever mb-8 max-sm:text-2xl max-sm:mt-8 max-sm:mb-3 max-md:text-5xl max-md:mt-12 max-lg:text-4xl max-lg:mt-16 '>Trailer</h3>
+            <h3  className=' mt-8 text-6xl text-center font-orbitronBlack tracking-wider mb-8 max-sm:text-2xl max-sm:mt-8 max-sm:mb-3 max-md:text-5xl max-md:mt-12 max-lg:text-4xl max-lg:mt-16 '>Trailer</h3>
 
             <div className=' mainVideo flex justify-center h-full ' >
                 <div className=' w-full h-full ' >

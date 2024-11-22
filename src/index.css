@@ -48,3 +48,8 @@ body{
     font-family: ModernWarfare;
     src: url('./assets/Fonts/Modrenwarfare/ModernWarfare-OV7KP.ttf');
 }
+
+@font-face {
+    font-family: Recharge;
+    src: url('./assets/Fonts/Recharge/rechargebd.otf');
+}

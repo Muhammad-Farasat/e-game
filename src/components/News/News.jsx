@@ -93,7 +93,7 @@ function News() {
                         </div>
                     </div>
 
-                    <div className='main-card mt-20 relative z-50 flex justify-between max-sm:flex-col max-sm:items-center max-sm:space-y-12 max-sm:mt-12  '>
+                    <div className='main-card mt-20 relative z-50 flex  justify-between max-sm:flex-col max-sm:items-center max-sm:space-y-12 max-sm:mt-12  '>
                         <Cards className='card' game={dota} 
                         description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."} heading={'Dota 2'} />
                         <Cards className='card' game={lol} 

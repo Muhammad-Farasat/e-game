@@ -3,6 +3,11 @@ import { FaStarHalfAlt, FaRegStar, FaStar } from "react-icons/fa";
 import cod from '../../assets/Images/cod.jpg'
 import gta from '../../assets/Images/gtav.jpg'
 import tekken from '../../assets/Images/tekken8.jpg'
+import Tekken_cover from '../../assets/Images/Tekken_cover.jpg'
+import COD_cover from '../../assets/Images/COD_cover_og.jpg'
+import GTA_V_cover from '../../assets/Images/GTA_cover.jpg'
+
+
 import RatingCard from './RatingCard/RatingCard'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -64,7 +69,7 @@ function Rating() {
 
   return (
     <>
-        <section className='w-full h-[100vh] flex justify-center relative max-lg:h-auto max-sm:h-auto'>
+        <section className='w-full h-[100vh] flex justify-center relative max-lg:h-auto max-sm:h-auto max-xl:h-auto '>
 
             <div className="element_circle -z-50">
                 <div className='glowing-ellipse absolute bottom-20 left-[-8px] h-52 '></div>
@@ -89,7 +94,7 @@ function Rating() {
                 <FaStar />
                 <FaStarHalfAlt />
                 <FaRegStar />
-              </div>}  cardImg={cod} heading={'Call Of Duty'} />
+              </div>}  cardImg={COD_cover} heading={'Call Of Duty'} />
 
               <RatingCard className='rating-card' date={'October 29, 2003'} 
                 rating={<div className=' flex gap-2 text-Gold'>
@@ -99,7 +104,7 @@ function Rating() {
                   <FaStar />
                   <FaStarHalfAlt />
                 </div>} 
-                cardImg={gta} heading={'Grand Theif Auto: V'} />
+                cardImg={GTA_V_cover} heading={'Grand Theif Auto: V'} />
 
               <RatingCard className='rating-card' date={'October 29, 2003'} 
                 rating={<div className=' flex gap-2 text-Gold'>
@@ -108,7 +113,7 @@ function Rating() {
                 <FaStar />
                 <FaStar />
                 <FaRegStar />
-              </div>}  cardImg={tekken} heading={'Tekken: 8'} />
+              </div>}  cardImg={Tekken_cover} heading={'Tekken: 8'} />
 
 
 

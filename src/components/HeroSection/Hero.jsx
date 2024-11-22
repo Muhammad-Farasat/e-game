@@ -116,7 +116,7 @@ function Hero() {
                     <img src={thunder} className='thunder-aura' alt="" />
                   </div>
                   
-                  <div className='z-50 absolute h-[100%] bottom-0 max-lg:h-[86%] max-md:h-[80%]  max-sm:h-auto '>
+                  <div className='z-50 absolute h-[100%] bottom-0 max-lg:h-[70%] max-md:h-[80%]  max-sm:h-auto '>
                     <img src={hero} className='h-full ' id='character' alt="" />
                   </div>
               </div>
@@ -124,8 +124,8 @@ function Hero() {
               {/*  */}
 
               <div className=' flex justify-center h-[100%] '>
-                <div className="hexagon absolute bottom-0 h-[100%] max-md:w-[90%] max-md:h-[90%] max-sm:w-80 max-sm:h-80 ">
-                  <img src={hexagon} className=' w-[60rem] h-[100%]  max-2xl:w-[100%] ' alt="" />
+                <div className="hexagon absolute bottom-0 h-[100%] max-lg:h-[50%] max-md:w-[90%] max-md:h-[90%] max-sm:w-80 max-sm:h-80 ">
+                  <img src={hexagon} className=' w-full h-[100%] max-lg:h-full max-2xl:w-[100%] ' alt="" />
                 </div>
               </div>
 
@@ -199,18 +199,18 @@ function Hero() {
               </div>
 
               <div className='flex justify-center  '>
-                <div className=' container absolute bottom-32 tracking-wider text-7xl z-50 font-BruceForever cursor-pointer max-sm:text-xl max-lg:text-2xl max-lg:bottom-16 max-2xl:text-5xl max-sm:top-32 max-sm:flex max-sm:flex-col max-sm:items-center '>
+                <div className=' container absolute bottom-32 tracking-wider text-7xl z-50 font-BruceForever cursor-pointer max-sm:text-3xl max-lg:text-4xl max-lg:bottom-16 max-2xl:text-5xl max-sm:top-44 max-lg:top-44 max-lg:flex max-lg:flex-col max-lg:items-center max-sm:flex max-sm:flex-col max-sm:items-center '>
 
-                  <div className="up flex space-x-5 max-sm:space-x-2 max-lg:space-x-2  ">
-                    <div className='mainWords'>WELCOME </div>
-                    <div className='mainWords'>TO </div>
-                    <div className='mainWords'>THE</div>
+                  <div className="up flex space-x-5 max-sm:space-x-2 max-lg:space-x-4  ">
+                    <div className='mainWords tracking-[5px] '>WELCOME </div>
+                    <div className='mainWords tracking-[5px] '>TO </div>
+                    <div className='mainWords tracking-[5px] '>THE</div>
                   </div>
 
-                  <div className="bottom flex space-x-5 max-sm:space-x-2 max-lg:space-x-2">
-                    <div className='mainWords'>WORLD</div>
-                    <div className='mainWords'>OF</div>
-                    <div className='game mainWords'>GAMING</div>
+                  <div className="bottom flex space-x-5 max-sm:space-x-2 max-lg:space-x-4 ">
+                    <div className='mainWords  '>WORLD</div>
+                    <div className='mainWords  '>OF</div>
+                    <div className='game mainWords  '>GAMING</div>
                   </div>
 
                 </div>

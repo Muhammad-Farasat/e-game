@@ -19,7 +19,8 @@ export default {
         Dragon: ['Dragon'],
         QuickStarter: ['QuickStarter'],
         BruceForever: ['BruceForever'],
-        ModernWarfare : ['ModernWarfare']
+        ModernWarfare : ['ModernWarfare'],
+        Recharge: ['Recharge']
       },
       dropShadow:{
         textShadow: 'drop-shadow(-1px 6px 4px #00ffff)',
