@@ -11,7 +11,7 @@ function RatingCard({cardImg, date, rating, heading}) {
         > */}
 
         <div className='rating-card'>
-          <div className=' w-96 max-lg:w-56  relative group'>
+          <div className=' w-96 max-lg:w-56 max-xl:w-72  relative group'>
             <div className='w-full h-full group-hover:bg-[#000000ad]  absolute top-0 '></div>
             <img src={cardImg} className='rounded-lg' alt="" />
             <div className="text mt-6 ml-2 mr-3 space-y-2  absolute bottom-16 hidden group-hover:block   ">
